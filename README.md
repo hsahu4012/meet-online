@@ -1,66 +1,44 @@
-## Table of Contents [<a name="table">](#table)</a>
+## 📋 <a name="table">Table of Contents</a>
 
-1.  [Introduction](#introduction)
-2.  ⚙️ [Tech Stack](#tech-stack)
-3.  [Features](#features)
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
 
-## <a name="introduction"> Introduction</a>
+## <a name="introduction">🤖 Introduction</a>
 
-This video conferencing tool is built with the latest Next.js and TypeScript, providing a robust and user-friendly platform for seamless video communication. It enables users to:
-
-- Securely log in
-- Create meetings
-- Access various meeting functionalities such as recording, screen sharing, and managing participants.
+Built with the latest Next.js and TypeScript, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-The project leverages the following technologies:
+- Next.js
+- TypeScript
+- Clerk
+- getstream
+- shadcn
+- Tailwind CSS
 
-- Next.js: A popular framework for building performant and scalable web applications.
-- TypeScript: A typed superset of JavaScript that enhances code maintainability and developer experience.
-- Clerk: Provides secure user authentication and management features.
-- GetStream.io: Likely used for building scalable chat or real-time functionality (specific usage unclear from the provided information).
-- Shadc.io (unknown library): If you can provide more details about its function, it can be described here.
-- Tailwind CSS: A utility-first CSS framework for rapid and responsive UI development.
+## <a name="features">🔋 Features</a>
 
-## <a name="features"> Features</a>
+👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
-This video conferencing tool offers a rich set of features for a productive and engaging communication experience:
+👉 **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
 
-**Authentication and Authorization:**
+👉 **Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
 
-- Implements secure login via Clerk, supporting both social sign-on and traditional email/password methods.
-- Ensures appropriate access levels and permissions within the platform.
+👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
 
-**Meeting Management:**
+👉 **Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
 
-- **New Meeting:** Quickly set up a new meeting with customizable camera and microphone preferences.
-- **Meeting Controls:** Participants have full control over meeting aspects such as recording, screen sharing, audio adjustments, muting/unmuting, and managing participant visibility and actions (pinning, muting, blocking, allowing video share).
-- **Exit Meeting:** Participants can leave a meeting, or the creator can end it for everyone.
-- **Schedule Future Meetings:** Schedule meetings for later, accessible on the 'Upcoming Meetings' page for easy sharing or immediate start.
-- **Past Meetings List:** Access a list of past meetings with details for reference.
-- **View Recorded Meetings:** Review or reference recordings of past meetings.
+👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
 
-**Accessibility and Flexibility:**
+👉 **View Recorded Meetings**: Access recordings of past meetings for review or reference.
 
-- **Personal Room:** Each user has a unique meeting link for instant meetings, readily shareable with others.
-- **Join Meetings via Link:** Easily join meetings created by others using a meeting link.
-- **Responsive Design:** Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes.
+👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
 
-**Additional Features (to be explored):**
+👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
 
-The README mentions "and many more, including code architecture and reusability." If you have additional features or specific details about code architecture and reusability, consider adding them under a new section for a more comprehensive overview.
+👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
 
-**Security and Privacy:**
+👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
-- Emphasize the importance of secure real-time functionality within the platform, maintaining user privacy and data integrity.
-
-**Contributing (optional):**
-
-If you plan to allow contributions to the project, include a section outlining contribution guidelines.
-
-**License:**
-
-Specify the license under which the code is distributed.
-
-By incorporating these enhancements, you can create a compelling and informative README that effectively showcases your video conferencing tool on GitHub.
+and many more, including code architecture and reusability.
